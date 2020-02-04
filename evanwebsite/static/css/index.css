@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgb(20, 20, 23);
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 9pt;
+}
+
+.projects {
+  background: rgb(100, 100, 100);
+  padding-top: 100px;
+  padding-left: 200px;
+  width: 500px;
+  height: 500px;
+}
+.cursor {
+  width: 20px;
+  height: 20px;
+
+  background: rgb(200, 200, 205);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.logo{
+
+  align-self: center;
+
+}
+
+.stickylogo {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  padding: 16px;
+  background: white;
+  border: 3px solid white;
+}
+
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
